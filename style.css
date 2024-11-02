@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#gameContainer {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  border: 1px solid #000;
+  margin: auto;
+  overflow: hidden;
+}
+
+#clue, #location, #box, #treasure {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  text-align: center;
+  line-height: 100px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
